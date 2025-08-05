@@ -63,10 +63,10 @@ See more examples at https://docs.catanatron.com.
 
 ## Graphical User Interface
 
-We provide Docker images so that you can watch, inspect, and play games against Catanatron via a web UI!
+We provide a simple and visually appealing UI so that you can watch, inspect, and play games against Catanatron via a web UI!
 
 <p align="left">
- <img src="https://raw.githubusercontent.com/bcollazo/catanatron/master/docs/source/_static/CatanatronUI.png">
+ <img width="1508" height="790" alt="image" src="https://github.com/user-attachments/assets/0e6aa4b4-e020-4bcc-8609-287018f68412" />
 </p>
 
 
@@ -98,6 +98,7 @@ players = [
 game = Game(players)
 print(game.play())  # returns winning color
 ```
+
 
 See more at http://docs.catanatron.com
 
