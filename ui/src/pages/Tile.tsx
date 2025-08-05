@@ -34,6 +34,7 @@ export function NumberToken({
       elevation={3}
       className={cn("number-token", className, { flashing: flashing })}
       style={style}
+      data-value={number}
     >
       <div>{number}</div>
       <div className="pips">{numberToPips(number)}</div>
