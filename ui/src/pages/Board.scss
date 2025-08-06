@@ -98,35 +98,41 @@
   justify-content: center;
   align-items: center;
 }
-.settlement {
-  width: 80%;
-  height: 80%;
-}
+.settlement,
 .city {
   width: 100%;
   height: 100%;
-}
-.settlement,
-.city {
-  border-radius: 4px; // mimic Paper
-  border: 2px solid variables.$dark-gray;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.BLUE.city {
-  border: 4px solid variables.$blue;
-  background: variables.$dark-gray;
+// Settlement colors
+.RED.settlement {
+  background-image: url('../assets/buildings/red-settlement.svg');
 }
+.BLUE.settlement {
+  background-image: url('../assets/buildings/blue-settlement.svg');
+}
+.ORANGE.settlement {
+  background-image: url('../assets/buildings/orange-settlement.svg');
+}
+.WHITE.settlement {
+  background-image: url('../assets/buildings/white-settlement.svg');
+}
+
+// City colors
 .RED.city {
-  border: 4px solid variables.$red;
-  background: variables.$dark-gray;
+  background-image: url('../assets/buildings/red-city.svg');
+}
+.BLUE.city {
+  background-image: url('../assets/buildings/blue-city.svg');
 }
 .ORANGE.city {
-  border: 4px solid variables.$orange;
-  background: variables.$dark-gray;
+  background-image: url('../assets/buildings/orange-city.svg');
 }
 .WHITE.city {
-  border: 4px solid variables.$white;
-  background: variables.$dark-gray;
+  background-image: url('../assets/buildings/white-city.svg');
 }
 
 // Taken from https://codepen.io/peeke/pen/BjxXZa.
