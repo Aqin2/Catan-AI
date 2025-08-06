@@ -98,8 +98,29 @@
   justify-content: center;
   align-items: center;
 }
-.settlement,
-.city {
+.settlement {
+  width: 90%;
+  height: 90%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.RED.settlement {
+  background-image: url('../assets/red-settlement.svg');
+}
+.BLUE.settlement {
+  background-image: url('../assets/blue-settlement.svg');
+}
+.ORANGE.settlement {
+  background-image: url('../assets/orange-settlement.svg');
+}
+.WHITE.settlement {
+  background-image: url('../assets/white-settlement.svg');
+}
+
+// City colors
+.RED.city {
   width: 100%;
   height: 100%;
   background-size: contain;
@@ -107,32 +128,17 @@
   background-repeat: no-repeat;
 }
 
-// Settlement colors
-.RED.settlement {
-  background-image: url('../assets/buildings/red-settlement.svg');
-}
-.BLUE.settlement {
-  background-image: url('../assets/buildings/blue-settlement.svg');
-}
-.ORANGE.settlement {
-  background-image: url('../assets/buildings/orange-settlement.svg');
-}
-.WHITE.settlement {
-  background-image: url('../assets/buildings/white-settlement.svg');
-}
-
-// City colors
 .RED.city {
-  background-image: url('../assets/buildings/red-city.svg');
+  background-image: url('../assets/red-city.svg');
 }
 .BLUE.city {
-  background-image: url('../assets/buildings/blue-city.svg');
+  background-image: url('../assets/blue-city.svg');
 }
 .ORANGE.city {
-  background-image: url('../assets/buildings/orange-city.svg');
+  background-image: url('../assets/orange-city.svg');
 }
 .WHITE.city {
-  background-image: url('../assets/buildings/white-city.svg');
+  background-image: url('../assets/white-city.svg');
 }
 
 // Taken from https://codepen.io/peeke/pen/BjxXZa.
