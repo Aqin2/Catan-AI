@@ -1,15 +1,11 @@
 # Catanatron
 
-TODO:
-1. Redesign the UI
-2. Create AI Player
-
 [![Coverage Status](https://coveralls.io/repos/github/bcollazo/catanatron/badge.svg?branch=master)](https://coveralls.io/github/bcollazo/catanatron?branch=master)
 [![Documentation Status](https://readthedocs.org/projects/catanatron/badge/?version=latest)](https://catanatron.readthedocs.io/en/latest/?badge=latest)
 [![Join the chat at https://gitter.im/bcollazo-catanatron/community](https://badges.gitter.im/bcollazo-catanatron/community.svg)](https://gitter.im/bcollazo-catanatron/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bcollazo/catanatron/blob/master/examples/Overview.ipynb)
 
-Catanatron is a high-performance simulator and strong AI player for Settlers of Catan. You can run thousands of games in the order of seconds. The goal is to find the strongest Settlers of Catan bot possible. 
+Catanatron is a high-performance simulator and strong AI player for Settlers of Catan. You can run thousands of games in the order of seconds. The goal is to find the strongest Settlers of Catan bot possible. This repo is a fork of Catanatron where we aim to improve the UI, implement a PPO agent and test it against other agents. 
 
 Get Started with the Full Documentation: https://docs.catanatron.com
 
@@ -63,10 +59,10 @@ See more examples at https://docs.catanatron.com.
 
 ## Graphical User Interface
 
-We provide Docker images so that you can watch, inspect, and play games against Catanatron via a web UI!
+We provide a simple and visually appealing UI so that you can watch, inspect, and play games against Catanatron via a web UI!
 
 <p align="left">
- <img src="https://raw.githubusercontent.com/bcollazo/catanatron/master/docs/source/_static/CatanatronUI.png">
+ <img width="1508" height="790" alt="image" src="https://github.com/user-attachments/assets/0e6aa4b4-e020-4bcc-8609-287018f68412" />
 </p>
 
 
@@ -98,6 +94,7 @@ players = [
 game = Game(players)
 print(game.play())  # returns winning color
 ```
+
 
 See more at http://docs.catanatron.com
 
